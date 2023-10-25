@@ -1,0 +1,109 @@
+#mainPageBg {
+    background-color: #141414;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    color: #E2E3E5;
+    margin-top: 70px;
+    gap: 10px;
+
+}
+
+#textarea {
+    box-sizing: border-box;
+    background: transparent;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    color: #E2E3E5;
+    border: 3px solid #5e0080ef;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 19px;
+    width: 400px;
+    height: 64px;
+    max-height: 200px;
+    border-radius: 9px;
+}
+
+#postsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 50px;
+    cursor: pointer;
+    background: linear-gradient(to right, #990FA0, #55069F);
+    border-radius: 200px;
+    border: 0px;
+    font-size: 20px;
+    color: #E2E3E5;
+    transition: transform 0.4s ease-in-out;
+}
+
+#postsInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#postsAvatar {
+    border: 2px solid #7f03acec;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+#postsUserName {
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+}
+
+#postsUserName::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #990fa0e3, #55069fec);
+}
+
+#postsText {
+    display: inline-block;
+    overflow-wrap: break-word;
+    cursor: pointer;
+    max-width: 800px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#delPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+    background: none;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #ff0000c9;
+    transition: transform 0.4s ease-in-out;
+}
+
+#delPosts {
+    color: #ff0000;
+}

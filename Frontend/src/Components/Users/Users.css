@@ -1,0 +1,49 @@
+#usersBg {
+    background-color: #141414;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #141414;
+    border-left: 1px solid #3c3c3c;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 9px;
+    background: #525252;
+    border-left: 1px solid #3c3c3c;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #414141;
+    width: 9px;
+}
+
+#allUsers {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 70px;
+    gap: 20px;
+}
+
+#usersInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #E2E3E5;
+    margin-top: 10px;
+    gap: 6px;
+    font-size: 18px;
+}
+
+#usersAvatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    border: 3px solid #7f03acec;
+}

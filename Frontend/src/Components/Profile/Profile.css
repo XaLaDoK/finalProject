@@ -1,0 +1,82 @@
+#profileBg {
+    background-color: #141414;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#profileInfo {
+    position: relative;
+    color: #E2E3E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    height: 750px;
+    gap: 20px;
+}
+
+#avatar {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 3px solid #7f03acec;
+}
+
+#avatar:hover {
+    transform: scale(1.02);
+    opacity: 0.85;
+}
+
+#uploadBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 120px;
+    cursor: pointer;
+    background: #6730ff8a;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 20px;
+    color: #E2E3E5;
+    transition: transform 0.4s ease-in-out;
+}
+
+#uploadBtn:hover {
+    transform: scale(1.04);
+    background: linear-gradient(to right, #990FA0, #55069F);
+}
+
+.profileInfoText {
+    font-size: 24px;
+}
+
+#userName {
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+#userName::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #990fa0e3, #55069fec);
+}
+
+#exit {
+    color: #ff0000c9;
+    font-weight: 600;
+}
+
+#exit:hover {
+    color: #ff0000;
+}
